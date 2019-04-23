@@ -23,8 +23,8 @@ main {
 section {
   display: flex;
   width: 80%;
-  min-width: 500px;
-  max-width: 700px;
+  /* min-width: 500px;
+  max-width: 700px; */
   border: 1.5px solid #663366;
   box-sizing: border-box;
   padding: 10px;
@@ -80,6 +80,7 @@ i {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
+  max-width: 500px;
   justify-content: center;
 }
 
