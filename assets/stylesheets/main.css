@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 header {
@@ -65,7 +65,7 @@ i {
   width: 100%;
   box-sizing: border-box;
   min-width: 450px;
-  padding-top: 150px;
+  padding-top: 120px;
   background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
 }
 
