@@ -215,28 +215,6 @@ p {
   transition: 1s;
 }
 
-.project-img-box {
-  position: relative;
-}
-
-.project-links {
-  transition: 0.5s;
-  background-color: rgba(0,0,0,0.5);
-  box-sizing: border-box;
-  margin: 10px;
-  position: absolute;
-  z-index: 5;
-  top: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 300px;
-  max-width: 300px;
-  width: 100%;
-}
-
-
-
 footer {
   align-items: center;
   display: flex;
