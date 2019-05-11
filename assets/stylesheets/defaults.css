@@ -25,9 +25,17 @@ h4 {
 }
 
 h5 {
-  font-size: calc(10px + 1vw);
   color: #555555;
   margin: 5px;
+}
+
+.link {
+  font-size: calc(10px + 1vw);
+}
+
+.title {
+  font-size: calc(18px + 1vw);
+  margin-bottom: 15px;
 }
 
 .tech {
@@ -39,16 +47,20 @@ h5 {
 }
 
 h6 {
-  font-size: 10px;
+  font-size: calc(4px + 1vw);
   margin-bottom: 5px;
   color: #555555;
 }
 
 p {
-  font-size: 18px;
+  font-size: calc(8px + 1vw);
   line-height: 1.5;
   color: #555555;
   margin: 10px 0px;
+}
+
+.description {
+  font-size: calc(8px + 1vw);
 }
 
 a {
