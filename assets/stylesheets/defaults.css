@@ -27,14 +27,19 @@ h4 {
 h5 {
   font-size: calc(10px + 1vw);
   color: #555555;
+  margin: 5px;
 }
 
 .tech {
   font-size: calc(14px + 1vw);
 }
 
+.link:hover {
+  border-bottom: #663366 solid 2px;
+}
+
 h6 {
-  font-size: calc(10px + 1vw);
+  font-size: 10px;
   margin-bottom: 5px;
   color: #555555;
 }
@@ -72,10 +77,15 @@ button {
 button:hover {
   transform: scale(1.05);
   transition: 0.5s;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 525px) {
   h5 {
+    font-size: 3vw;
+  }
+
+  h6 {
     font-size: 3vw;
   }
 }
