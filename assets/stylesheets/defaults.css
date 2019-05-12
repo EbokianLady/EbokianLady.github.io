@@ -108,15 +108,15 @@ button:hover {
 
 @media screen and (max-width: 525px) {
   h1 {
-    font-size: calc(30px + 1vw);
+    font-size: calc(26px + 1vw);
   }
 
   h2 {
-    font-size: calc(22px + 1vw);
+    font-size: calc(18px + 1vw);
   }
 
   h3 {
-    font-size: calc(16px + 1vw);
+    font-size: calc(14px + 1vw);
   }
 
   h4 {
