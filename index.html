@@ -19,10 +19,18 @@
 
 <body>
   <nav class='upper-navbar'>
-    <h5 class='link'>ABOUT ME</h5>
-    <h5 class='link'>SKILLS</h5>
-    <h5 class='link'>PROJECT</h5>
-    <h5 class='link'>CONTACT</h5>
+    <a class='link-a' href="#about-me-link">
+      <h5 class='link'>ABOUT ME</h5>
+    </a>
+    <a class='link-a' href="#skills-link">
+      <h5 class='link'>SKILLS</h5>
+    </a>
+    <a class='link-a' href="#project-link">
+      <h5 class='link'>PROJECTS</h5>
+    </a>
+    <a class='link-a' href="#contact-link">
+      <h5 class='link'>CONTACT</h5>
+    </a>
   </nav>
 
   <header>
@@ -52,6 +60,7 @@
   </header>
 
   <main>
+    <div id='about-me-link'></div>
     <section>
       <div>
         <h4>ABOUT ME</h4>
@@ -66,6 +75,7 @@
       </div>
     </section>
 
+    <div id='skills-link'></div>
     <section class='skills'>
       <div>
         <h4>SKILLS</h4>
@@ -122,6 +132,7 @@
       </div>
     </section>
 
+    <div id='project-link'></div>
     <section>
       <div>
         <h4>PROJECTS</h4>
@@ -139,6 +150,14 @@
               <h5 class='tech'>
                 Ruby on Rails, Javascript, React-Redux
               </h5>
+              <nav class='project-navbar'>
+                <a class ='live-a' href='https://github.com/EbokianLady/pintrigue' target='_blank'>
+                  <i class='fab fa-github'></i>
+                </a>
+                <a class ='live-a' href='https://pintrigue.herokuapp.com/#/' target='_blank'>
+                  <img class='live-link' src='./assets/logos/pintrigue-logo.png'>
+                </a>
+              </nav>
             </div>
             <div class='project-summary'>
               <p class='description'>
@@ -149,17 +168,30 @@
               </p>
             </div>
           </div>
-          <!-- <div class='project-flip'>
-            <a href='https://ebokianlady.github.io/little_red/' target='_blank'>
-              <img class='project-img'
-              src='./assets/images/projects/little_red_cover2.png'
-              >
-            </a>
-            <div class='project-summary'>
-              <h5>Little Red | Sole Developer</h5>
+          <div class='break'></div>
+          <div class='project'>
+            <div class='project-image' >
+              <a href='https://ebokianlady.github.io/little_red/' target='_blank'>
+                <img class='project-img'
+                src='./assets/images/projects/little_red_cover2.png'
+                >
+              </a>
+            </div>
+            <div class='project-header'>
+              <h5 class='title'>Little Red | Sole Developer</h5>
               <h5 class='tech'>
                 CSS, HTML5 Canvas, Javascript
               </h5>
+              <nav class='project-navbar'>
+                <a class='live-a' href='https://github.com/EbokianLady/little_red' target='_blank'>
+                  <i class='fab fa-github'></i>
+                </a>
+                <a class='live-a' href='https://ebokianlady.github.io/little_red/' target='_blank'>
+                  <img class='live-link' src='./assets/logos/little_red.png'>
+                </a>
+              </nav>
+            </div>
+            <div class='project-summary'>
               <p class='description'>
                 Fairytale-inspired side-scroller game featuring Little Red Riding Hood and a whimsical flight from the Big Bad Wolf. The player must collect apples during their flight or be caught.
               </p>
@@ -167,12 +199,13 @@
                 Features original artwork and sprite animation. Implemented dynamic parallax scrolling for immersive UI and wow factor. Complete with music and sound effects.
               </p>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </section>
   </main>
 
+  <div id='contact-link'></div>
   <footer>
     <p>
       stephani.kell@gmail.com

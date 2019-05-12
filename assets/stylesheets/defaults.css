@@ -1,70 +1,69 @@
 h1 {
   color: #FFFFFF;
-  font-size: calc(30px + 1vw);
+  font-size: 36px;
   margin: 10px;
   text-align: center;
 }
 
 h2 {
   color: #FFFFFF;
-  font-size: calc(22px + 1vw);
+  font-size: 28px;
   margin-bottom: 20px;
   text-align: center;
 }
 
 h3 {
-  font-size: calc(16px + 1vw);
+  font-size: 22px;
   color: #FFFFFF;
   text-align: center;
 }
 
 h4 {
-  font-size: calc(24px + 1vw);
+  font-size: 30px;
   color: #663366;
   margin-bottom: 10px;
 }
 
 h5 {
   color: #555555;
-  margin: 5px;
+  margin: 5px 0px;
 }
 
 .link {
-  font-size: calc(10px + 1vw);
+  font-size: 16px;
+  border-bottom: #FFFFFF solid 2px;
 }
 
 .title {
-  font-size: calc(18px + 1vw);
+  font-size: 24px;
   margin-bottom: 15px;
 }
 
 .tech {
-  font-size: calc(14px + 1vw);
+  font-size: 20px;
 }
 
 .link:hover {
+  color: #663366;
   border-bottom: #663366 solid 2px;
 }
 
 h6 {
-  font-size: calc(4px + 1vw);
+  font-size: 12px;
   margin-bottom: 5px;
   color: #555555;
 }
 
 p {
-  font-size: calc(8px + 1vw);
+  font-size: 15px;
   line-height: 1.5;
   color: #555555;
   margin: 10px 0px;
 }
 
-.description {
-  font-size: calc(8px + 1vw);
-}
-
 a {
   padding: 10px;
+  text-decoration: none;
 }
 
 i {
@@ -73,6 +72,20 @@ i {
 }
 
 i:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.live-a {
+  display: flex;
+  align-items: center;
+}
+
+.live-link {
+  height: calc(30px + 1vw);
+}
+
+.live-link:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
@@ -92,12 +105,49 @@ button:hover {
   cursor: pointer;
 }
 
+
 @media screen and (max-width: 525px) {
+  h1 {
+    font-size: calc(30px + 1vw);
+  }
+
+  h2 {
+    font-size: calc(22px + 1vw);
+  }
+
+  h3 {
+    font-size: calc(16px + 1vw);
+  }
+
+  h4 {
+    font-size: calc(24px + 1vw);
+  }
+
   h5 {
     font-size: 3vw;
   }
 
   h6 {
-    font-size: 3vw;
+    font-size: calc(1px + 2vw);
+  }
+
+  .link {
+    font-size: calc(10px + 1vw);
+  }
+
+  .title {
+    font-size: calc(18px + 1vw);
+  }
+
+  .tech {
+    font-size: calc(14px + 1vw);
+  }
+
+  p {
+    font-size: calc(9px + 1vw);
+  }
+
+  i {
+    font-size: calc(30px + 1vw);
   }
 }
