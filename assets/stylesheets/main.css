@@ -4,11 +4,13 @@ body {
 
 main {
   background-color: #FFFFFF;
+  position:relative;
   z-index: 2;
 }
 
 footer {
   background-color: #FFFFFF;
+  position:relative;
   z-index: 2;
 }
 
@@ -43,10 +45,10 @@ header {
   object-fit: cover;
   z-index: 0;
   transform: translateZ(-2px);
-  position: absolute;
-  /* position: fixed;
+  /* position: absolute; */
+  position: fixed;
   top: 0px;
-  left: 0px; */
+  left: 0px;
 
   /* background-image: url('../images/city.jpg');
   background-size: cover; */
