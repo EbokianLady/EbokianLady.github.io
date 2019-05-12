@@ -4,10 +4,12 @@ body {
 
 main {
   background-color: #FFFFFF;
+  z-index: 2;
 }
 
 footer {
   background-color: #FFFFFF;
+  z-index: 2;
 }
 
 /* PROFILE */
@@ -39,11 +41,15 @@ header {
   width: 100vw;
   height: calc(250px + 50vh + 20vw);
   object-fit: cover;
-  z-index: -1;
+  z-index: 0;
   transform: translateZ(-2px);
-  position: fixed;
+  position: absolute;
+  /* position: fixed;
   top: 0px;
-  left: 0px;
+  left: 0px; */
+
+  /* background-image: url('../images/city.jpg');
+  background-size: cover; */
 }
 
 .profile {
