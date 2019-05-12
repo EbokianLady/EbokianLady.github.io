@@ -2,6 +2,14 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+main {
+  background-color: #FFFFFF;
+}
+
+footer {
+  background-color: #FFFFFF;
+}
+
 /* PROFILE */
 
 .upper-navbar {
@@ -30,11 +38,12 @@ header {
 .background-img {
   width: 100vw;
   height: calc(250px + 50vh + 20vw);
-  /* min-height: 720px; */
   object-fit: cover;
   z-index: -1;
   transform: translateZ(-2px);
-  position: absolute;
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
 
 .profile {
@@ -44,7 +53,6 @@ header {
   justify-content: flex-end;
   width: 100vw;
   height: calc(250px + 50vh + 20vw);
-  /* min-height: 720px; */
   box-sizing: border-box;
   padding-top: 40px;
   padding-bottom: 20vw;
